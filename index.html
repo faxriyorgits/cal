@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <div class="calculator">
+        <div class="calculator-display">
+          <input class="calculator-display-input" type="text" id="result" readonly>
+        </div>
+        <div class="calculator-keys">
+          <button class="calculator-key key-clear" onclick="clearResult()">AC</button>
+          <button class="calculator-key key-sign" onclick="toggleSign()">+/-</button>
+          <button class="calculator-key key-percent" onclick="percentage()">%</button>
+          <button class="calculator-key key-divide" onclick="operatorClicked('/')">÷</button>
+          <button class="calculator-key" onclick="numberClicked('7')">7</button>
+          <button class="calculator-key" onclick="numberClicked('8')">8</button>
+          <button class="calculator-key" onclick="numberClicked('9')">9</button>
+          <button class="calculator-key key-multiply" onclick="operatorClicked('*')">x</button>
+          <button class="calculator-key" onclick="numberClicked('4')">4</button>
+          <button class="calculator-key" onclick="numberClicked('5')">5</button>
+          <button class="calculator-key" onclick="numberClicked('6')">6</button>
+          <button class="calculator-key key-subtract" onclick="operatorClicked('-')">-</button>
+          <button class="calculator-key" onclick="numberClicked('1')">1</button>
+          <button class="calculator-key" onclick="numberClicked('2')">2</button>
+          <button class="calculator-key" onclick="numberClicked('3')">3</button>
+          <button class="calculator-key key-add" onclick="operatorClicked('+')">+</button>
+          <button class="calculator-key key-zero" onclick="numberClicked('0')">0</button>
+          <button class="calculator-key key-dot" onclick="decimalClicked()">.</button>
+          <button class="calculator-key key-equals" onclick="equals()">=</button>
+        </div>
+      </div>
+      
+
+
+    <script src="./script.js">
+       
+    </script>
+</body>
+</html>
